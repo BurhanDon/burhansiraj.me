@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  @apply max-w-[768px] mx-auto px-6 py-8 md:px-8 md:py-12;
+}
+
+/* Print Styles */
+@media print {
+  button,
+  [role="button"],
+  .hide-on-print {
+    @apply hidden;
+  }
+
+  body {
+    @apply bg-white;
+  }
+
+  main {
+    @apply max-w-full px-0 py-0;
+  }
+
+  a {
+    @apply text-primary no-underline;
+  }
+
+  .print-block {
+    @apply block !important;
+  }
+
+  .page-break {
+    @apply break-after-page;
+  }
+}
