@@ -17,24 +17,24 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <>
       <div
-        className="border border-border rounded p-4 hover:shadow-md transition-shadow cursor-pointer"
+        className="border border-border rounded p-3 hover:shadow-md transition-shadow cursor-pointer"
         onClick={() => setIsModalOpen(true)}
       >
-        <h3 className="font-semibold text-primary mb-2">{project.title}</h3>
-        <p className="text-sm text-secondary mb-3">{project.description}</p>
+        <h3 className="font-semibold text-primary text-sm mb-1.5">{project.title}</h3>
+        <p className="text-xs text-secondary mb-2.5 leading-relaxed">{project.description}</p>
 
         {/* Tech Stack Chips */}
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="flex flex-wrap gap-1.5 mb-3">
           {project.techStack.slice(0, 3).map((tech, idx) => (
             <span
               key={idx}
-              className="inline-block px-2 py-1 text-xs bg-border text-primary rounded"
+              className="inline-block px-2 py-0.5 text-[11px] bg-border text-primary rounded"
             >
               {tech}
             </span>
           ))}
           {project.techStack.length > 3 && (
-            <span className="inline-block px-2 py-1 text-xs text-secondary">
+            <span className="inline-block px-2 py-0.5 text-[11px] text-secondary">
               +{project.techStack.length - 3} more
             </span>
           )}

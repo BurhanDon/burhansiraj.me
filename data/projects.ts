@@ -5,10 +5,7 @@ export const projects: Project[] = [
     id: "1",
     title: "🔍 Research Assistant",
     description: "Multi-agent research pipeline powered by LangGraph + DuckDuckGo",
-    fullDescription: `Multi-Agent Research Assistant built with LangGraph as part of my Agentic AI learning journey.
-
-  Learning Context:
-  • Built while progressing through Ed Donner's Agentic AI Engineering course (completed through Week 4: LangGraph)
+    fullDescription: `Multi-Agent Research Assistant built with LangGraph for structured, high-quality research output.
 
 Pipeline:
 • Planner — breaks your query into 3 focused sub-questions using structured LLM output
@@ -44,9 +41,6 @@ Pipeline:
       "Agentic deep research workflow for collecting, validating, and synthesizing multi-source insights",
     fullDescription: `Deep Research Agent focused on long-form, evidence-driven output generation.
 
-  Learning Context:
-  • Built as part of Ed Donner's Agentic AI Engineering course journey (up to Week 4: LangGraph)
-
 Highlights:
 • Runs multi-step research loops to refine query understanding
 • Gathers supporting evidence from multiple sources
@@ -65,17 +59,17 @@ Highlights:
     id: "3",
     title: "🎯 Career Bot",
     description:
-      "AI career assistant for role guidance, decision support, and opportunity-focused recommendations",
-    fullDescription: `Career Bot designed to help users evaluate opportunities and navigate career decisions.
-
-  Learning Context:
-  • Built during Ed Donner's Agentic AI Engineering course practice track (through Week 4: LangGraph)
+      "Personal career chatbot that answers questions about my work history using LinkedIn-based context and fallback lead-capture tools",
+    fullDescription: `A lightweight chatbot that answers current and slightly older information about my career and work history from my LinkedIn profile context.
 
 Highlights:
-• Understands user profile and intent
-• Provides context-aware career guidance
-• Suggests role-aligned improvements and next actions
-• Delivers fast conversational support through a simple UI`,
+• Handles profile-based Q&A, including full-career summary style questions
+• Uses fallback tools to collect contact details (name, email, notes) when answers are unavailable
+• Logs unanswered questions for later review and improvement
+• Runs on a free API tier with daily quota limits (can show quota errors after limit is reached)
+
+Note:
+• The bot is trained on an older snapshot of my profile and may not reflect the most recent updates`,
     techStack: ["LLM Tool Calling", "Multi-turn Conversation", "Context Management", "Prompt Engineering", "UI Integration"],
     conceptsDemonstrated: [
       "Conversational AI",
@@ -119,5 +113,36 @@ Pipeline:
     ],
     liveUrl: "https://spacex-ds.streamlit.app/",
     githubUrl: "https://github.com/BurhanDon/SpaceX_DS_Capstone",
+  },
+  {
+    id: "5",
+    title: "🛍️ Baby Shop Hub",
+    description:
+      "Flutter mobile app with Firebase backend featuring authentication, product display, admin dashboard, and multi-page navigation",
+    fullDescription: `A self-built mobile development project focused on delivering a practical e-commerce style app experience.
+
+Highlights:
+• Implemented login authentication flow with Firebase integration
+• Built product listing and browsing experience
+• Added admin dashboard capabilities for basic management workflows
+• Structured the app across multiple pages with clean navigation
+
+This project demonstrates my early mobile engineering foundation and ability to deliver complete feature flows independently.`,
+    techStack: [
+      "Flutter",
+      "Firebase Authentication",
+      "Cloud Firestore",
+      "Mobile UI Architecture",
+      "State Management",
+    ],
+    conceptsDemonstrated: [
+      "Authentication Flow",
+      "Multi-page Navigation",
+      "Admin Workflow Design",
+      "Mobile Data Integration",
+      "End-to-End Feature Development",
+    ],
+    liveUrl: "https://burhans-portfolio.netlify.app/assets/Baby-proj.mp4",
+    githubUrl: "https://github.com/BurhanDon/Flutter-App-Baby",
   },
 ];
