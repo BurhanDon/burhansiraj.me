@@ -4,7 +4,7 @@ export const experiences: Experience[] = [
   {
     id: "1",
     company: "Codified Digital Studios",
-    position: "WordPress Developer",
+    position: "Wordpress Developer",
     duration: "Nov 2024 - Feb 2026",
     description:
       "Create and manage client websites using Elementor builder, including Figma to WordPress conversions, ensuring high-quality and responsive websites.",

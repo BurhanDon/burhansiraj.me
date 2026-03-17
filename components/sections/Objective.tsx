@@ -7,7 +7,7 @@ export default function Objective() {
       <p className="text-primary leading-relaxed">
         Seeking roles in AI solutions companies specialized in Agentic AI or AI
         Models, where I can build a successful career and achieve professional
-        growth as an Applied AI/ML and Data Engineer.
+        growth as an Applied AI/ML and Data Engineer with MLOps.
       </p>
     </section>
   );
