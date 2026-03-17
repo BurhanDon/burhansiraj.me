@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Burhan Siraj | Applied AI/ML & Data Engineer",
+  title: "Burhan Siraj | Applied AI/ML & Data Engineer with MLOps",
   description:
     "Portfolio of Burhan Siraj. Applied AI/ML Engineer, Data Engineer, Agentic AI specialist. Pursuing BSCS at Iqra University.",
   keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Next.js",
   ],
   openGraph: {
-    title: "Burhan Siraj | Applied AI/ML & Data Engineer",
+    title: "Burhan Siraj | Applied AI/ML & Data Engineer with MLOps",
     description:
       "Portfolio of Burhan Siraj. Applied AI/ML Engineer, Data Engineer, Agentic AI specialist.",
     url: "https://burhansiraj.me",

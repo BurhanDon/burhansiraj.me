@@ -5,7 +5,7 @@ export const educations: Education[] = [
     id: "1",
     institution: "Iqra University (North Campus)",
     degree: "Undergraduate in BSCS (6th Semester)",
-    year: "2023 - Present",
+    year: "2024 - Present",
   },
   {
     id: "2",

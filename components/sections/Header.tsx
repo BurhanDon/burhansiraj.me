@@ -24,7 +24,9 @@ export default function Header() {
         <div className="flex items-start gap-2">
           <span className="text-secondary">Phone:</span>
           <Link
-            href={`tel:${profile.phone}`}
+            href="https://wa.me/923182677471?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20want%20to%20discuss%20an%20opportunity..."
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-accent hover:underline"
           >
             {profile.phone}

@@ -11,7 +11,7 @@ export const certificates: Certificate[] = [
     id: "2",
     name: "Data Science & AI Specialization",
     issuer: "PITP",
-    year: "2024",
+    year: "2026",
   },
   {
     id: "3",

@@ -16,7 +16,15 @@ export const skills: Skill[] = [
   {
     id: "2",
     category: "Frontend Development",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
+    items: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Bootstrap",
+      "HTML",
+      "CSS",
+    ],
   },
   {
     id: "3",
