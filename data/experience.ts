@@ -11,10 +11,10 @@ export const experiences: Experience[] = [
   },
   {
     id: "2",
-    company: "Int Global Techno Soft",
-    position: "React & Next.js Intern",
-    duration: "2023 - 2024",
+    company: "Global Techno Soft",
+    position: "Jr Frontend Developer",
+    duration: "2024",
     description:
-      "Developed multiple short projects independently with guidance and assistance from seniors. Hands-on experience with modern React patterns and Next.js framework.",
+      "Developed multiple short projects independently with guidance and assistance from seniors. Hands-on experience with React, Next.js, API integration, and modern frontend patterns.",
   },
 ];

@@ -23,15 +23,58 @@ main {
   }
 
   body {
-    @apply bg-white;
+    @apply bg-white text-[13px];
   }
 
   main {
-    @apply max-w-full px-0 py-0;
+    @apply max-w-full px-4 py-4 md:px-6 md:py-6;
   }
 
   a {
     @apply text-primary no-underline;
+    /* Show URL after link text in print */
+    &::after {
+      content: " (" attr(href) ")";
+      font-size: 11px;
+      color: #555555;
+    }
+  }
+
+  h1 {
+    @apply text-2xl mb-1;
+  }
+
+  h2 {
+    @apply text-sm mb-2;
+  }
+
+  h3 {
+    @apply text-xs mb-1;
+  }
+
+  section {
+    @apply mb-6;
+  }
+
+  /* Tighten gaps for compact print */
+  .space-y-4 {
+    @apply space-y-2;
+  }
+
+  .space-y-6 {
+    @apply space-y-3;
+  }
+
+  .mb-8 {
+    @apply mb-4;
+  }
+
+  .mb-4 {
+    @apply mb-2;
+  }
+
+  .pb-8 {
+    @apply pb-4;
   }
 
   .print-block {

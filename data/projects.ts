@@ -15,12 +15,11 @@ Pipeline:
 • Writer — produces a clean, structured markdown report`,
     techStack: [
       "LangGraph",
-      "LangChain",
-      "SambaNova (Llama 3.3 70B)",
-      "Groq",
-      "DuckDuckGo",
-      "LangSmith",
-      "Gradio",
+      "StateGraphs & Conditional Edges",
+      "Tool Integration",
+      "LLM Orchestration",
+      "Web Search Integration",
+      "Structured Output Parsing",
     ],
     conceptsDemonstrated: [
       "StateGraph",
@@ -31,7 +30,7 @@ Pipeline:
       "Supervisor pattern",
       "Checkpointing",
       "Async streaming",
-      "HF Spaces deployment",
+      "Multi-LLM Evaluation",
     ],
     liveUrl: "https://huggingface.co/spaces/BurhanDon/research-assistant",
     githubUrl: "https://github.com/BurhanDon/research-assistant",
@@ -48,7 +47,7 @@ Highlights:
 • Gathers supporting evidence from multiple sources
 • Synthesizes findings into structured, decision-ready output
 • Optimized for practical AI-assisted research use-cases`,
-    techStack: ["Agentic AI", "LLMs", "Gradio", "Hugging Face Spaces"],
+    techStack: ["LangGraph", "LLM Orchestration", "State Machines", "Tool Integration", "Iterative Reasoning"],
     conceptsDemonstrated: [
       "Research orchestration",
       "Iterative reasoning",
@@ -69,7 +68,7 @@ Highlights:
 • Provides context-aware career guidance
 • Suggests role-aligned improvements and next actions
 • Delivers fast conversational support through a simple UI`,
-    techStack: ["Agentic AI", "LLMs", "Gradio", "Hugging Face Spaces"],
+    techStack: ["LLM Tool Calling", "Multi-turn Conversation", "Context Management", "Prompt Engineering", "UI Integration"],
     conceptsDemonstrated: [
       "Conversational AI",
       "Context-aware response generation",
