@@ -3,15 +3,15 @@ import { Education } from "@/types";
 export const educations: Education[] = [
   {
     id: "1",
-    institution: "Aptech",
-    degree: "Advanced Diploma in Software Engineering (3 Years)",
-    year: "2022 - 2025",
-  },
-  {
-    id: "2",
     institution: "Iqra University (North Campus)",
     degree: "Undergraduate in BSCS (6th Semester)",
     year: "2024 - Present",
+  },
+  {
+    id: "2",
+    institution: "Aptech",
+    degree: "Advanced Diploma in Software Engineering (3 Years)",
+    year: "2022 - 2025",
   },
   {
     id: "3",

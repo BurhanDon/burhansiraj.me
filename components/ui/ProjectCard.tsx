@@ -10,6 +10,9 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const sourceLabel = project.githubUrl?.includes("github.com")
+    ? "GitHub"
+    : "Source";
 
   return (
     <>
@@ -58,7 +61,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               className="text-xs text-accent hover:underline"
               onClick={(e) => e.stopPropagation()}
             >
-              GitHub →
+              {sourceLabel} →
             </a>
           )}
           <button

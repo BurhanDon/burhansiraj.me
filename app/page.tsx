@@ -7,7 +7,6 @@ import Education from "@/components/sections/Education";
 import Skills from "@/components/sections/Skills";
 import Projects from "@/components/sections/Projects";
 import Certificates from "@/components/sections/Certificates";
-import EarlierWork from "@/components/sections/EarlierWork";
 
 export default function Home() {
   const handlePrint = () => {
@@ -34,7 +33,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Certificates />
-      <EarlierWork />
     </main>
   );
 }

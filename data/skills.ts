@@ -22,8 +22,6 @@ export const skills: Skill[] = [
       "TypeScript",
       "Tailwind CSS",
       "Bootstrap",
-      "HTML",
-      "CSS",
     ],
   },
   {
@@ -51,13 +49,12 @@ export const skills: Skill[] = [
       "Seaborn",
       "Streamlit",
       "Gradio",
-      "Hugging Face Spaces",
       "Statistical Analysis",
     ],
   },
   {
     id: "6",
     category: "Tools & Platforms",
-    items: ["Git", "GitHub", "Jupyter", "Google Colab", "VS Code"],
+    items: ["Git", "GitHub", "Jupyter", "Google Colab", "Hugging Face"],
   },
 ];

@@ -14,6 +14,9 @@ export default function ProjectModal({
   onClose,
 }: ProjectModalProps) {
   if (!isOpen) return null;
+  const sourceLabel = project.githubUrl?.includes("github.com")
+    ? "View on GitHub"
+    : "View Source";
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
@@ -93,7 +96,7 @@ export default function ProjectModal({
               rel="noopener noreferrer"
               className="text-accent hover:underline font-semibold"
             >
-              View on GitHub ↗
+              {sourceLabel} ↗
             </a>
           )}
         </div>
