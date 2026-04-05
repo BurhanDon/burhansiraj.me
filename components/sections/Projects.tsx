@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ui/ProjectCard";
 export default function Projects() {
   return (
     <section className="mb-8">
-      <h2 className="text-xs uppercase tracking-widest font-semibold text-secondary mb-4">
+      <h2 className="text-base md:text-lg font-semibold text-primary mb-3">
         Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

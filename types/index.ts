@@ -13,6 +13,7 @@ export interface Experience {
   company: string;
   position: string;
   duration: string;
+  location?: string;
   description: string;
 }
 
@@ -21,6 +22,7 @@ export interface Education {
   institution: string;
   degree: string;
   year: string;
+  location?: string;
 }
 
 export interface Skill {
