@@ -1,7 +1,7 @@
 export default function Objective() {
   return (
     <section className="mb-8">
-      <h2 className="text-base md:text-lg font-semibold text-primary mb-3">
+      <h2 className="text-base md:text-lg font-semibold text-primary mb-3 pb-1 border-b border-border">
         Objective
       </h2>
       <p className="text-primary leading-relaxed">

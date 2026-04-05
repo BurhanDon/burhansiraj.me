@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
+import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
+
+const sourceSans = Source_Sans_3({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Burhan Siraj | Applied AI/ML & Data Engineer with MLOps",
@@ -32,7 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-bg text-primary">
+      <body className={`${sourceSans.className} bg-bg text-primary`}>
         {children}
       </body>
     </html>

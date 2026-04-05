@@ -22,4 +22,11 @@ export const educations: Education[] = [
     year: "Nov 2020 - Nov 2022",
     location: "Sindh, North Nazimabad",
   },
+  {
+    id: "4",
+    institution: "Happy Palace Grammar School",
+    degree: "Matriculation in Computer Science (NEC Campus)",
+    year: "2019 - 2021",
+    location: "Sindh, North Karachi",
+  },
 ];
