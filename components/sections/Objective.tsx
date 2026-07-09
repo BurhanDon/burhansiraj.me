@@ -5,7 +5,7 @@ export default function Objective() {
         Objective
       </h2>
       <p className="text-primary leading-relaxed">
-        Seeking Junior roles in a software company specialized in Analytics or
+        Seeking roles in a software company specialized in Analytics or
         AI Models Technologies, focused on building scalable applications
         aiming to solve real-world engineering problems in production systems,
         where I can build a successful career and achieve professional growth

@@ -27,7 +27,14 @@ export const skills: Skill[] = [
   {
     id: "4",
     category: "APIs",
-    items: ["API Development", "REST APIs", "AI Integration", "FastAPI"],
+    items: [
+      "API Development",
+      "REST APIs",
+      "AI Integration",
+      "System Design",
+      "DBMS",
+      "Redis",
+    ],
   },
   {
     id: "5",
@@ -44,7 +51,14 @@ export const skills: Skill[] = [
   {
     id: "6",
     category: "Frontend",
-    items: ["React", "Next.js", "Tailwind CSS", "Bootstrap", "HTML", "CSS", "WordPress"],
+    items: [
+      "React",
+      "Next.js",
+      "Nodejs",
+      "Tailwind CSS",
+      "Bootstrap",
+      "WordPress",
+    ],
   },
   {
     id: "7",
@@ -54,11 +68,24 @@ export const skills: Skill[] = [
   {
     id: "8",
     category: "Tools & Platforms",
-    items: ["Git", "GitHub", "Jupyter Notebook", "Google Colab", "MS Office"],
+    items: [
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "Vercel",
+      "Cloudflare",
+      "Prometheus",
+      "Grafana",
+      "Sentry",
+    ],
   },
   {
     id: "9",
     category: "Collaboration",
-    items: ["Technical Documentation", "Troubleshooting", "Remote Collaboration"],
+    items: [
+      "Technical Documentation",
+      "Troubleshooting",
+      "Remote Collaboration",
+    ],
   },
 ];

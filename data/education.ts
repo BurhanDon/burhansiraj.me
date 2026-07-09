@@ -11,7 +11,7 @@ export const educations: Education[] = [
   {
     id: "2",
     institution: "Aptech",
-    degree: "Advance 3yrs diploma in SE",
+    degree: "Advance 3yrs diploma in Software Engineering",
     year: "Oct 2022 - Oct 2025",
     location: "Sindh, North Nazimabad",
   },

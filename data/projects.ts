@@ -4,7 +4,8 @@ export const projects: Project[] = [
   {
     id: "1",
     title: "🔍 Research Assistant",
-    description: "Multi-agent research pipeline powered by LangGraph + DuckDuckGo",
+    description:
+      "Multi-agent research pipeline powered by LangGraph + DuckDuckGo",
     fullDescription: `Multi-Agent Research Assistant built with LangGraph for structured, high-quality research output.
 
 Pipeline:
@@ -46,7 +47,13 @@ Highlights:
 • Gathers supporting evidence from multiple sources
 • Synthesizes findings into structured, decision-ready output
 • Optimized for practical AI-assisted research use-cases`,
-    techStack: ["LangGraph", "LLM Orchestration", "State Machines", "Tool Integration", "Iterative Reasoning"],
+    techStack: [
+      "LangGraph",
+      "LLM Orchestration",
+      "State Machines",
+      "Tool Integration",
+      "Iterative Reasoning",
+    ],
     conceptsDemonstrated: [
       "Research orchestration",
       "Iterative reasoning",
@@ -70,7 +77,13 @@ Highlights:
 
 Note:
 • The bot is trained on an older snapshot of my profile and may not reflect the most recent updates`,
-    techStack: ["LLM Tool Calling", "Multi-turn Conversation", "Context Management", "Prompt Engineering", "UI Integration"],
+    techStack: [
+      "LLM Tool Calling",
+      "Multi-turn Conversation",
+      "Context Management",
+      "Prompt Engineering",
+      "UI Integration",
+    ],
     conceptsDemonstrated: [
       "Conversational AI",
       "Context-aware response generation",

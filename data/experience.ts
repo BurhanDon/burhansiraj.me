@@ -17,6 +17,6 @@ export const experiences: Experience[] = [
     duration: "May/2024 - Aug/2024",
     location: "Sindh, Gulistan-e-Johar",
     description:
-      "Assisted Senior Developers as a React and Next.js Intern in the full Web Development Life Cycle or SDLC, focusing on debugging and logic implementation.",
+      "Assisted Senior Developers as a React and Next.js developer in the full Web Development Life Cycle and SDLC, focusing on debugging and logic implementation.",
   },
 ];
