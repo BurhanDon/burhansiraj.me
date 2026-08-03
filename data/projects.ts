@@ -2,98 +2,6 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    id: "1",
-    title: "🔍 Research Assistant",
-    description:
-      "Multi-agent research pipeline powered by LangGraph + DuckDuckGo",
-    fullDescription: `Multi-Agent Research Assistant built with LangGraph for structured, high-quality research output.
-
-Pipeline:
-• Planner — breaks your query into 3 focused sub-questions using structured LLM output
-• Researcher — searches the web via DuckDuckGo for each sub-question using tool calling
-• Supervisor — evaluates research quality and decides to retry or proceed
-• Analyst — synthesizes all findings into coherent insights
-• Writer — produces a clean, structured markdown report`,
-    techStack: [
-      "LangGraph",
-      "StateGraphs & Conditional Edges",
-      "Tool Integration",
-      "LLM Orchestration",
-      "Web Search Integration",
-      "Structured Output Parsing",
-    ],
-    conceptsDemonstrated: [
-      "StateGraph",
-      "Conditional edges",
-      "Reducers",
-      "Tool calling",
-      "Subgraphs",
-      "Supervisor pattern",
-      "Checkpointing",
-      "Async streaming",
-      "Multi-LLM Evaluation",
-    ],
-    liveUrl: "https://huggingface.co/spaces/BurhanDon/research-assistant",
-  },
-  {
-    id: "2",
-    title: "🧠 Deep Research Agent",
-    description:
-      "Agentic deep research workflow for collecting, validating, and synthesizing multi-source insights",
-    fullDescription: `Deep Research Agent focused on long-form, evidence-driven output generation.
-
-Highlights:
-• Runs multi-step research loops to refine query understanding
-• Gathers supporting evidence from multiple sources
-• Synthesizes findings into structured, decision-ready output
-• Optimized for practical AI-assisted research use-cases`,
-    techStack: [
-      "LangGraph",
-      "LLM Orchestration",
-      "State Machines",
-      "Tool Integration",
-      "Iterative Reasoning",
-    ],
-    conceptsDemonstrated: [
-      "Research orchestration",
-      "Iterative reasoning",
-      "Evidence synthesis",
-      "Structured output generation",
-    ],
-    liveUrl: "https://huggingface.co/spaces/Eng-Burhan/deep-research",
-  },
-  {
-    id: "3",
-    title: "🎯 Career Bot",
-    description:
-      "Personal career chatbot that answers questions about my work history using LinkedIn-based context and fallback lead-capture tools",
-    fullDescription: `A lightweight chatbot that answers current and slightly older information about my career and work history from my LinkedIn profile context.
-
-Highlights:
-• Handles profile-based Q&A, including full-career summary style questions
-• Uses fallback tools to collect contact details (name, email, notes) when answers are unavailable
-• Logs unanswered questions for later review and improvement
-• Runs on a free API tier with daily quota limits (can show quota errors after limit is reached)
-
-Note:
-• The bot is trained on an older snapshot of my profile and may not reflect the most recent updates`,
-    techStack: [
-      "LLM Tool Calling",
-      "Multi-turn Conversation",
-      "Context Management",
-      "Prompt Engineering",
-      "UI Integration",
-    ],
-    conceptsDemonstrated: [
-      "Conversational AI",
-      "Context-aware response generation",
-      "User intent handling",
-      "Actionable recommendation flow",
-    ],
-    liveUrl: "https://huggingface.co/spaces/Eng-Burhan/career_bot",
-    githubUrl: "https://huggingface.co/spaces/Eng-Burhan/career_bot/tree/main",
-  },
-  {
     id: "4",
     title: "🚀 SpaceX Falcon 9 Landing Prediction",
     description:
@@ -157,5 +65,102 @@ This project demonstrates my early mobile engineering foundation and ability to 
     ],
     liveUrl: "https://burhans-portfolio.netlify.app/assets/Baby-proj.mp4",
     githubUrl: "https://github.com/BurhanDon/Flutter-App-Baby",
+  },
+  {
+    id: "6",
+    title: "📞 Iris AI",
+    description:
+      "AI-powered front desk / caller agent SaaS built with a friend using the MERN stack, handling AI call answering, booking, and confirmations",
+    fullDescription: `Iris AI is an AI-powered front desk product for service businesses — an AI receptionist that answers calls, books appointments, sends confirmations, and logs call data automatically.
+
+Built with a friend as a SaaS startup idea. Not taken to full completion / not actively maintained further.
+
+Highlights:
+• Built the AI caller agent using Vapi and Telnyx for voice, telephony routing, and call handling
+• Implemented appointment booking synced to Google Calendar
+• Automated email confirmations via Gmail integration
+• Logged call records to Google Sheets
+• Built an admin dashboard for call logs, transcripts, call summaries, and usage tracking
+• Built supporting SaaS infrastructure: multi-workspace support, SMS (two-way + bulk), email campaigns, leads/CRM handling, billing via Stripe, and real-time updates via WebSockets`,
+    techStack: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "Vapi",
+      "Telnyx",
+      "WebSockets",
+      "Stripe",
+      "Google Calendar API",
+      "Gmail API",
+    ],
+    conceptsDemonstrated: [
+      "AI voice agent orchestration",
+      "Telephony integration",
+      "Real-time systems",
+      "SaaS multi-tenancy",
+      "Third-party API integration",
+      "Billing/subscription workflows",
+    ],
+    liveUrl: "https://app.iriscalls.com/",
+  },
+  {
+    id: "7",
+    title: "🧂 Pak Pink",
+    description:
+      "Business website built end-to-end for a Pakistani startup exporting Himalayan pink salt to B2B/wholesale buyers",
+    fullDescription: `Pak Pink is a business website for a Pakistani local startup exporting Himalayan pink salt (edible salt, industrial salt, home decor, and private label products) to global B2B and wholesale clients.
+
+Built completely by me, including live cloud configuration and deployment.
+
+Highlights:
+• Web-scraped product, pricing, and category data as the core method for populating the site's content
+• Built full site structure: home, about, products (by category), private label, FAQ, contact
+• Implemented product catalog pages across multiple categories (edible, industrial, decor, kitchen, wellness)
+• Set up contact/quote request flow for B2B leads
+• Handled live cloud setup and deployment on Vercel`,
+    techStack: ["React", "Next.js", "Web Scraping", "Vercel"],
+    conceptsDemonstrated: [
+      "Web Scraping & Data Collection",
+      "End-to-end site delivery",
+      "Client project ownership",
+      "Cloud deployment & configuration",
+      "Product catalog architecture",
+    ],
+    liveUrl: "https://pakpink.com/",
+  },
+  {
+    id: "9",
+    title: "🪲 Isopod Keepers",
+    description:
+      "WordPress marketplace site built with a friend for an American startup serving the isopod-keeping hobbyist community",
+    fullDescription: `Isopod Keepers is a community-driven marketplace platform for the isopod hobby, featuring auctions, seller and buyer profiles, and community-focused discovery.
+
+Built as a WordPress site using Claude AI, together with a friend, for an American business startup.
+
+Highlights:
+• Built out auctions, seller directory, and buyer-facing marketplace pages
+• Structured site around community trust: seller reputation, transparency, and accountability`,
+    techStack: ["WordPress", "Claude AI"],
+    conceptsDemonstrated: [],
+    liveUrl: "https://isopodkeepers.com/",
+  },
+  {
+    id: "10",
+    title: "🧼 Moral Clean",
+    description:
+      "Business website built end-to-end for a Pakistani startup supplying commercial/industrial cleaning equipment to B2B clients",
+    fullDescription: `Moral Clean is a business website for a Pakistani startup supplying commercial cleaning equipment, replacement parts, and technical service to industrial and facility operations.
+
+Built completely by me, including live cloud configuration and deployment.
+
+Highlights:
+• Built full site structure: home, products (by category), services, blog, about, contact
+• Implemented product catalog across equipment categories (scrubber dryers, vacuums, pressure cleaners, steam cleaners, etc.)
+• Built services section covering motor repair, parts replacement, and maintenance offerings
+• Handled live cloud setup and deployment on Vercel`,
+    techStack: ["Next.js", "React", "Supabase", "Vercel"],
+    conceptsDemonstrated: [],
+    liveUrl: "https://moralclean.com/",
   },
 ];
